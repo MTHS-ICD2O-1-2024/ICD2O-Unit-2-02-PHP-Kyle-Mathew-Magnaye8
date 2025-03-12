@@ -50,6 +50,10 @@
           Calculate
         </button>
       </form>
+      <?php if ($_SERVER["REQUEST_METHOD"] == "POST") : ?>
+        <p>The area is: <?php echo number_format($area, 15); ?> cm²</p>
+        <p>The perimeter is: <?php echo number_format($perimeter, 16); ?> cm</p>
+      <?php endif; ?>
     </main>
   </div>
 </body>
