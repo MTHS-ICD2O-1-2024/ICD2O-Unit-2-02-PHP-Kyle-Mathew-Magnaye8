@@ -45,7 +45,11 @@
         echo "<h2 class='rectangle-title'>The dimensions of a rectangle are: $length cm and $width cm.</h2>";
         ?>
       </div>
-      <br />
+      <form method="post">
+        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" type="submit">
+          Calculate
+        </button>
+      </form>
     </main>
   </div>
 </body>
