@@ -27,8 +27,16 @@
     </header>
     <main class="mdl-layout__content">
       <div class="right-image">
-        <img src="./images/area_and_perimiter.png" alt="area and perimiter image" />
-        <br />
+        <img src="./images/notebook-animation.svg" alt="laptop image" />
+      </div>
+      <div class="page-content-php">
+        <?php echo '<p>6 + 5 = ' . (6 + 5) . '</p>'; ?>
+        <?php echo '<p>7 - 3 =  ' . (7 - 3) . '</p>'; ?>
+        <?php echo '<p>3 + 4 × 2 = ' . (3 + 4 * 2) . '</p>'; ?>
+        <?php echo '<p>(4 ÷ 2) + 3 = ' . (4 / 2 + 3) . '</p>'; ?>
+        <?php echo '<p>5 + 2³ = ' . (5 + 2 ** 3) . '</p>'; ?>
+      </div>
+      <br />
     </main>
   </div>
 </body>
