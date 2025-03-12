@@ -14,7 +14,16 @@
   <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
   <link rel="manifest" href="site.webmanifest" />
-  <title>The math program,in PHP</title>
+  <title>The Area & Perimiter program, in PHP</title>
+  <style>
+    .rectangle-title {
+      color: white;
+      font-size: 24px;
+      text-align: center;
+      font-family: Arial, sans-serif;
+      margin-top: 20px;
+    }
+  </style>
 </head>
 
 <body>
@@ -30,11 +39,11 @@
         <img src="./images/area_and_perimeter.png" alt="area and perimiter image" />
       </div>
       <div class="page-content-php">
-        <?php echo '<p>6 + 5 = ' . (6 + 5) . '</p>'; ?>
-        <?php echo '<p>7 - 3 =  ' . (7 - 3) . '</p>'; ?>
-        <?php echo '<p>3 + 4 × 2 = ' . (3 + 4 * 2) . '</p>'; ?>
-        <?php echo '<p>(4 ÷ 2) + 3 = ' . (4 / 2 + 3) . '</p>'; ?>
-        <?php echo '<p>5 + 2³ = ' . (5 + 2 ** 3) . '</p>'; ?>
+        <?php
+        $length = 5;
+        $width = 3;
+        echo "<h2 class='rectangle-title'>The dimensions of a rectangle are: $length cm and $width cm.</h2>";
+        ?>
       </div>
       <br />
     </main>
