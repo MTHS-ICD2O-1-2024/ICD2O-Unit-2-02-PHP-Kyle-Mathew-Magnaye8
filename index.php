@@ -27,7 +27,7 @@
     </header>
     <main class="mdl-layout__content">
       <div class="right-image">
-        <img src="./images/notebook-animation.svg" alt="laptop image" />
+        <img src="./images/area_and_perimeter.png" alt="area and perimiter image" />
       </div>
       <div class="page-content-php">
         <?php echo '<p>6 + 5 = ' . (6 + 5) . '</p>'; ?>
