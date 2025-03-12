@@ -22,21 +22,13 @@
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
-        <span class="mdl-layout-title">The math program, in PHP</span>
+        <span class="mdl-layout-title">The Area & Perimiter program, in PHP</span>
       </div>
     </header>
     <main class="mdl-layout__content">
       <div class="right-image">
-        <img src="./images/notebook-animation.svg" alt="laptop image" />
-      </div>
-      <div class="page-content-php">
-        <?php echo '<p>6 + 5 = ' . (6 + 5) . '</p>'; ?>
-        <?php echo '<p>7 - 3 =  ' . (7 - 3) . '</p>'; ?>
-        <?php echo '<p>3 + 4 × 2 = ' . (3 + 4 * 2) . '</p>'; ?>
-        <?php echo '<p>(4 ÷ 2) + 3 = ' . (4 / 2 + 3) . '</p>'; ?>
-        <?php echo '<p>5 + 2³ = ' . (5 + 2 ** 3) . '</p>'; ?>
-      </div>
-      <br />
+        <img src="./images/area_and_perimiter.png" alt="area and perimiter image" />
+        <br />
     </main>
   </div>
 </body>
